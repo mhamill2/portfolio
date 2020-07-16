@@ -44,12 +44,17 @@
     <main id="contact" class="main contact">
       <h1 class="lg-heading">Contact <span class="text-secondary">Me</span></h1>
       <h2 class="sm-heading">
-        Need anything built, want to work together or simply want to have a
-        chat? You can email me at
+        Need anything built? Want to work together or just have a chat? You can
+        email me at
         <span class="text-secondary">michael.hamill3@gmail.com</span>, or simply
         fill out the form below. I will get back to you soon!
       </h2>
-      <div class="contact-form-container">
+      <form
+        class="contact-form-container"
+        action="mailto:michael.hamill3@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
         <div>
           <input
             type="text"
@@ -81,10 +86,10 @@
         </div>
         <div>
           <button class="btn-light" id="submit-contact">
-            Send
+            SEND
           </button>
         </div>
-      </div>
+      </form>
     </main>
 
     <footer id="main-footer" class="main-footer">
