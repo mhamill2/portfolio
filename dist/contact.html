@@ -44,16 +44,45 @@
     <main id="contact" class="main contact">
       <h1 class="lg-heading">Contact <span class="text-secondary">Me</span></h1>
       <h2 class="sm-heading">
-        Her is how you can reach me...
+        Need anything built, want to work together or simply want to have a
+        chat? You can email me at
+        <span class="text-secondary">michael.hamill3@gmail.com</span>, or simply
+        fill out the form below. I will get back to you soon!
       </h2>
-      <div class="contact-methods">
+      <div class="contact-form-container">
         <div>
-          <span class="text-secondary">Email:</span> michael.hamill3@gmail.com
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="contact-input"
+            value=""
+            placeholder="Name"
+          />
         </div>
-        <div><span class="text-secondary">Phone:</span> (614) 202-1462</div>
         <div>
-          <span class="text-secondary">Address:</span> 310 Lago Circle Apt 107,
-          West Melbourne FL 32904
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="contact-input"
+            value=""
+            placeholder="E-mail address"
+          />
+        </div>
+        <div>
+          <textarea
+            name="message"
+            id="message"
+            class="contact-input"
+            rows="4"
+            placeholder="Your message"
+          ></textarea>
+        </div>
+        <div>
+          <button class="btn-light" id="submit-contact">
+            Send
+          </button>
         </div>
       </div>
     </main>

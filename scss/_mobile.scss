@@ -74,4 +74,16 @@
   .projects {
     grid-template-columns: 1fr;
   }
+
+  .contact-form-container {
+    width: 100%;
+
+    div {
+      width: 100%;
+    }
+  }
+
+  .main.contact {
+    padding: 4rem 0;
+  }
 }

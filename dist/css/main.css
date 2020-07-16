@@ -134,7 +134,13 @@
   .main.home {
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .contact-form-container {
+    width: 100%; }
+    .contact-form-container div {
+      width: 100%; }
+  .main.contact {
+    padding: 4rem 0; } }
 
 * {
   box-sizing: border-box; }
@@ -244,24 +250,33 @@ h3 {
       border-color: #eece1a;
       transition: all 0.5s ease-out; }
 
-.contact-methods {
+.contact-form-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 1rem; }
-  .contact-methods div {
-    font-size: 2rem;
-    border: 3px #fff solid;
-    padding: 1.5rem 2.5rem;
-    margin-bottom: 3rem;
-    transition: all 0.5s ease-out; }
-    .contact-methods div:hover {
-      padding: 0.5rem 1.5rem;
-      background: #eece1a;
-      color: #000; }
-      .contact-methods div:hover span {
-        color: #000; }
+  margin: 1rem auto 0 auto;
+  float: none;
+  width: 66.667%; }
+  .contact-form-container div {
+    padding: 0.5rem 0;
+    width: 100%;
+    text-align: center; }
+    .contact-form-container div .btn, .contact-form-container div .btn-dark, .contact-form-container div .btn-light {
+      display: inline-block;
+      border: none;
+      border-radius: 10%;
+      font-size: 1.3rem; }
+
+.contact-input {
+  width: 96%;
+  border-radius: 0.3rem;
+  line-height: 2.3rem;
+  padding: 0 2%;
+  font-style: italic; }
+
+textarea.contact-input {
+  line-height: 1.4rem; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -269,7 +284,8 @@ h3 {
   border: 0;
   margin-bottom: 0.3rem;
   color: #fff;
-  text-decoration: none; }
+  text-decoration: none;
+  cursor: pointer; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
     background: #eece1a;
     color: #000; }
@@ -333,4 +349,10 @@ h3 {
   .main.home {
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .contact-form-container {
+    width: 100%; }
+    .contact-form-container div {
+      width: 100%; }
+  .main.contact {
+    padding: 4rem 0; } }
