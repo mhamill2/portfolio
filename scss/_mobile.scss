@@ -3,6 +3,9 @@
   .projects {
     grid-template-columns: repeat(4, 1fr);
   }
+  .contact-text-input-container {
+    width: 50% !important;
+  }
 }
 
 // Desktops and Laptops
