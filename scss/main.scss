@@ -137,6 +137,11 @@ h3 {
       @include easeOut;
     }
   }
+
+  .disabled-link {
+    opacity: 0.3;
+    cursor: default;
+  }
 }
 
 // Contact Page
@@ -186,7 +191,7 @@ textarea.contact-input {
   text-decoration: none;
   cursor: pointer;
 
-  &:hover {
+  &:hover:not(.disabled-link) {
     background: $secondary-color;
     color: set-text-color($secondary-color);
   }
