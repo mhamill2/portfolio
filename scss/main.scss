@@ -1,6 +1,5 @@
 @import 'config';
 @import 'menu';
-@import 'mobile';
 
 * {
   box-sizing: border-box;
@@ -145,40 +144,17 @@ h3 {
 }
 
 // Contact Page
-.contact-form-container {
+.submit-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  margin: 1rem auto 0 auto;
-  float: none;
-  width: 66.667%;
-
-  div {
-    padding: 0.5rem 0;
-    width: 100%;
-    text-align: center;
-
-    .btn {
-      display: inline-block;
-      border: none;
-      border-radius: 10%;
-      font-size: 1.3rem;
-      letter-spacing: 0.15rem;
-    }
-  }
+  padding: 1rem;
 }
 
-.contact-input {
-  width: 96%;
-  border-radius: 0.3rem;
-  line-height: 2.3rem;
-  padding: 0 2%;
-  font-style: italic;
-}
-
-textarea.contact-input {
-  line-height: 1.4rem;
+.send-email {
+  font-size: 2.5rem;
+  padding: 1.25rem 1.75rem !important;
+  border-radius: 0.8rem;
 }
 
 // Button Styles
