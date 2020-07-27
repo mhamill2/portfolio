@@ -1,19 +1,19 @@
 // Menu Button
 
 .menu-btn {
+  @include easeOut;
+  cursor: pointer;
   position: absolute;
-  z-index: 3;
   right: 35px;
   top: 35px;
-  cursor: pointer;
-  @include easeOut;
+  z-index: 3;
 
   .btn-line {
-    width: 28px;
+    @include easeOut;
+    background: set-text-color($primary-color);
     height: 3px;
     margin: 0 0 5px 0;
-    background: set-text-color($primary-color);
-    @include easeOut;
+    width: 28px;
   }
 
   // Rotate the menu lines
@@ -41,8 +41,8 @@
 .menu {
   position: fixed;
   top: 0;
-  width: 100%;
   visibility: hidden;
+  width: 100%;
 
   &.show {
     visibility: visible;
@@ -50,23 +50,23 @@
 
   &-branding,
   &-nav {
+    align-items: center;
     display: flex;
     flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
     float: left;
-    width: 50%;
     height: 100vh;
+    justify-content: center;
     overflow: hidden;
+    width: 50%;
   }
 
   &-nav {
-    margin: 0;
-    padding: 0;
+    @include easeOut;
     background: rgba(darken($primary-color, 5), 0.9);
     list-style: none;
+    margin: 0;
+    padding: 0;
     transform: translate3d(0, -100%, 0);
-    @include easeOut;
 
     &.show {
       // Slide in from the top
@@ -74,9 +74,9 @@
     }
   }
   &-branding {
+    @include easeOut;
     background: rgba($primary-color, 0.9);
     transform: translate3d(0, 100%, 0);
-    @include easeOut;
 
     &.show {
       // Slide in from the bottom
@@ -84,20 +84,20 @@
     }
 
     .portrait {
-      width: 250px;
-      height: 250px;
       background: url('../img/portrait_lg.jpg');
       background-position: center;
       background-size: cover;
-      border-radius: 50%;
       border: solid 3px $secondary-color;
+      border-radius: 50%;
+      height: 250px;
       opacity: 1;
+      width: 250px;
     }
   }
 
   .menu-item {
-    transform: translate3d(600px, 0, 0);
     @include easeOut;
+    transform: translate3d(600px, 0, 0);
 
     &.show {
       // Slide in from the right
@@ -110,15 +110,15 @@
   }
 
   .main-link {
-    display: inline-block;
-    position: relative;
-    font-size: 30px;
-    text-transform: uppercase;
-    padding: 1rem 0;
-    font-weight: 300;
-    color: set-text-color($primary-color);
-    text-decoration: none;
     @include easeOut;
+    color: set-text-color($primary-color);
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 1rem 0;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
 
     &:hover {
       color: $secondary-color;
