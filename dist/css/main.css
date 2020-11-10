@@ -242,8 +242,12 @@ h3 {
   text-align: center; }
 
 @media screen and (min-width: 1171px) {
+  /*
+  Uncomment this when you have more projects. 
   .projects {
-    grid-template-columns: repeat(4, 1fr); }
+    grid-template-columns: repeat(4, 1fr);
+  }
+  */
   .contact-text-input-container {
     width: 50% !important; } }
 

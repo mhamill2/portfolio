@@ -1,8 +1,11 @@
 // Widescreens
 @include mediaXl {
+  /*
+  Uncomment this when you have more projects. 
   .projects {
     grid-template-columns: repeat(4, 1fr);
   }
+  */
   .contact-text-input-container {
     width: 50% !important;
   }
