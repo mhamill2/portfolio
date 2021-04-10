@@ -1,64 +1,485 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      SameSite="none Secure"
-    />
-    <title>Michael Hamill</title>
-  </head>
-  <body class="bg-img">
-    <header class="header">
-      <div id="menu-btn-main" class="menu-btn">
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-      </div>
+<html lang="en-US">
 
-      <nav id="menu-main" class="menu">
-        <div id="menu-branding-main" class="menu-branding">
-          <div class="portrait"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Creative CV</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="css/aos.css?ver=1.1.0" rel="stylesheet" />
+  <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet" />
+  <link href="css/main.css?ver=1.1.0" rel="stylesheet" />
+  <noscript>
+    <style type="text/css">
+      [data-aos] {
+        opacity: 1 !important;
+        transform: translate(0) scale(1) !important;
+      }
+    </style>
+  </noscript>
+</head>
+
+<body id="top">
+  <header>
+    <div class="profile-page sidebar-collapse">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+        <div class="container">
+          <div class="navbar-translate">
+            <a class="navbar-brand" href="#" rel="tooltip">Michael Hamill</a>
+            <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+              aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span
+                class="navbar-toggler-bar bar3"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#top">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#skill">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link smooth-scroll" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-
-        <ul id="menu-nav-main" class="menu-nav">
-          <li class="menu-item current">
-            <a class="main-link" href="/">Home</a>
-          </li>
-          <li class="menu-item">
-            <a class="main-link" href="about">About Me</a>
-          </li>
-          <!-- <li class="menu-item">
-            <a class="main-link" href="work">My Work</a>
-          </li> -->
-          <li class="menu-item">
-            <a class="main-link" href="contact">Contact Me</a>
-          </li>
-        </ul>
       </nav>
-    </header>
-
-    <main id="home" class="main home">
-      <h1 class="lg-heading">
-        Michael <span class="text-secondary">Hamill</span>
-      </h1>
-      <h2 class="sm-heading">Software Engineer</h2>
-      <div class="icons">
-        <a href="https://www.instagram.com/michaelhamill614">
-          <i class="fab fa-instagram fa-2x"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/michaelphamill/">
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-        <a href="https://www.github.com/mhamill2">
-          <i class="fab fa-github fa-2x"></i>
-        </a>
+    </div>
+  </header>
+  <div class="page-content">
+    <div>
+      <div class="profile-page">
+        <div class="wrapper">
+          <div class="page-header page-header-small" filter-color="green">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg')">
+            </div>
+            <div class="container">
+              <div class="content-center">
+                <div class="cc-profile-image">
+                  <a href="#"><img src="images/portrait.jpg" alt="Image" /></a>
+                </div>
+                <div class="h2 title">Michael Hamill</div>
+                <p class="category text-white">Software Engineer</p>
+                <a class="btn btn-primary" href="docs/michael-hamill-resume.docx" data-aos="zoom-in"
+                  data-aos-anchor="data-aos-anchor">
+                  Resume
+                  <i class="fa fa-download"></i></a>
+              </div>
+            </div>
+            <div class="section">
+              <div class="container">
+                <div class="button-container">
+                  <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/michaelphamill"
+                    target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                  <a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/mhamill2"
+                    target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-github"></i>
+                  </a>
+                  <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.instagram.com/michaelhamill614"
+                    target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </main>
-    <footer id="main-footer" class="main-footer">Copyright &copy; 2020</footer>
-    <script src="js/main.js"></script>
-  </body>
+      <div class="section" id="about">
+        <div class="container">
+          <div class="card" data-aos="fade-up" data-aos-offset="10">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <div class="h4 mt-0 title">About</div>
+                  <p>
+                    Hello! I'm Michael, a Software Engineer based out of
+                    Melbourne, FL.
+                  </p>
+                  <p>
+                    I was born and raised in Columbus, OH and graduated from
+                    The Ohio State University with a bachelor's degree in
+                    computer science and engineering. I enjoy working on all
+                    different types of projects, but have a passion for web
+                    and mobile application development (front-end and
+                    back-end).
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="card-body">
+                  <div class="h4 mt-0 title">Basic Information</div>
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Age:</strong>
+                    </div>
+                    <div class="col-sm-8">28</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Email:</strong>
+                    </div>
+                    <div class="col-sm-8">michael.hamill3@gmail.com</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Phone:</strong>
+                    </div>
+                    <div class="col-sm-8">+1 614-202-1462</div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-sm-4">
+                      <strong class="text-uppercase">Address:</strong>
+                    </div>
+                    <div class="col-sm-8">
+                      234 Sedgewood Circle, Melbourne, FL 32904
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section skills" id="skill">
+        <div class="container">
+          <div class="h4 text-center mb-4 title">Technical Skills</div>
+          <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="card-body">
+              <div class="h4 mt-0 skill-header">Front-End</div>
+              <div class="row d-flex justify-content-around">
+                <div class="col-auto d-flex flex-column align-items-center">
+                  <img src="images/js-logo.svg" alt="JavaScript Logo">
+                  JavaScript
+                </div>
+                <div class="col-auto d-flex flex-column align-items-center">
+                  <img src="images/html-logo.svg" alt="HTML Logo" />
+                  HTML
+                </div>
+                <div class="col-auto d-flex flex-column align-items-center">
+                  <img src="images/css-logo.svg" alt="CSS Logo" />
+                  CSS
+                </div>
+                <div class="col-auto d-flex flex-column align-items-center">
+                  <img src="images/jquery-logo.svg" alt="jQuery Logo" />
+                  jQuery
+                </div>
+                <div class="col-auto d-flex flex-column align-items-center">
+                  <img src="images/sass-logo.svg" alt="SASS Logo" />
+                  SASS
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="card-body">
+              <div class="h4 mt-0 skill-header">Back-End</div>
+              <div class="row d-flex justify-content-around">
+                <div class="col-auto d-flex flex-column align-items-center">
+                  <img src="images/nodejs-logo.svg" alt="Node.js Logo">
+                  Node.js
+                </div>
+                <div class="col-auto d-flex flex-column align-items-center">
+                  <img src="images/java-logo.svg" alt="Java Logo" />
+                  Java
+                </div>
+                <div class="col-auto d-flex flex-column align-items-center">
+                  <img src="images/spring-logo.svg" alt="Spring Logo" />
+                  Spring
+                </div>
+                <div class="col-auto d-flex flex-column align-items-center">
+                  <img src="images/psql-logo.svg" alt="PostgreSQL Logo" />
+                  PostgreSQL
+                </div>
+                <div class="col-auto d-flex flex-column align-items-center">
+                  <img src="images/es-logo.svg" alt="Elasticsearch Logo" />
+                  Elasticsearch
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="experience">
+    <div class="container cc-experience">
+      <div class="h4 text-center mb-4 title">Work Experience</div>
+      <div class="card">
+        <div class="row">
+          <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body cc-experience-header">
+              <p>June 2018 - Present</p>
+              <div class="h5">L3Harris Technologies</div>
+            </div>
+          </div>
+          <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body">
+              <div class="h5">Software Engineer</div>
+              <p>
+                Design and development of the Federal Aviation Administration (FAA) Common Support Services - Weather
+                (CSS-Wx) NextGen program. CSS-Wx will be the single provider of weather data, products, and imagery
+                within the National Airspace System (NAS).
+              </p>
+              <p>
+                Technical lead and Scrum Master of a team of senior software engineers responsible for security,
+                infrastructure, and the maintenance, monitoring and control user interface.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row">
+          <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body cc-experience-header">
+              <p>May 2017 - May 2018</p>
+              <div class="h5">American Chemical Society</div>
+            </div>
+          </div>
+          <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body">
+              <div class="h5">Application Software Intern</div>
+              <p>
+                Worked as part of the application development and business solutions team. Designed and developed a new
+                time tracking web application for the company, fix reported bugs and added new requested features
+                to various projects primarily using Java and Spring.
+              </p>
+              <p>
+                Success during this internship led to an offer to continue work during the
+                2017-2018 school year as well as a full-time offer after graduation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row">
+          <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body cc-experience-header">
+              <p>Aug 2016 - May 2018</p>
+              <div class="h5">The Ohio State University</div>
+            </div>
+          </div>
+          <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body">
+              <div class="h5">Java Consultant</div>
+              <p>
+                Assisted Computer Science students with coursework to help achieve well-written code and a clear
+                understanding of concepts and best practices. Mainly focused in assisting with Java, but also had cases
+                in which I assisted with C and C++.
+              </p>
+              <p>
+                Coursework I assisted with included Introduction to Java, Software Components, and Software Development
+                and Design.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container cc-education">
+      <div class="h4 text-center mb-4 title">Education</div>
+      <div class="card">
+        <div class="row">
+          <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body cc-education-header">
+              <p>2015 - 2018</p>
+              <div class="h5">Bachelors Degree</div>
+            </div>
+          </div>
+          <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body">
+              <div class="h5">Compute Science and Engineering</div>
+              <p class="category">The Ohio State University</p>
+              <p>
+                Received my Bachelor of Science Degree in Computer Science and Engineering with a specialization in
+                Software Engineering. My studies mainly focused on application develpoment, software engineering
+                techniques and principles and the software development life cycle (SDLC).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="reference">
+    <div class="container cc-reference">
+      <div class="h4 mb-4 text-center title">Awards</div>
+      <div class="card" data-aos="zoom-in">
+        <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
+            <li data-target="#cc-Indicators" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-2 col-md-3 cc-reference-header">
+                  <img src="images/l3harris-logo.jpg" alt="Image" />
+                  <div class="h5 pt-2">UXCEL</div>
+                  <p class="category">L3Harris Technologies</p>
+                </div>
+                <div class="col-lg-10 col-md-9">
+                  <p>
+                    "Michael Hamill, we sincerely thank you for all of your personal commitment,
+                    sacrifice, and execution during the CSS-Wx (Common Support Services - Weather)
+                    SWIT (Software Integration and Test) 1 program phase. Your efforts
+                    were unstrumental in executing a critical program and rebuilding of FAAs
+                    confidence. The SWIT 1 execution was imperative to securing the next phase of
+                    the program and enabling future FAA business opportunities for our segment."
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-2 col-md-3 cc-reference-header">
+                  <img src="images/osu-logo.svg" alt="Image" />
+                  <div class="h5 pt-2">Best Design</div>
+                  <p class="category">The Ohio State University</p>
+                </div>
+                <div class="col-lg-10 col-md-9">
+                  <p>
+                    "Awarded best design in the 2018 Ohio State University College of Engineering Capstone
+                    Design Showcase for the Virtual Chemistry Android application. The
+                    team extended upon the previous work built in the application using IBM Watson search and
+                    discovery services integrating Natural Language Processing for mobile and the hands-free
+                    wearable HTM-1. The team focused on improving the Watson discovery and drastically enhancing
+                    the UI experience."
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="contact">
+    <div class="cc-contact-information" style="background-image: url('images/staticmap.jpg')">
+      <div class="container">
+        <div class="cc-contact">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="card mb-0" data-aos="zoom-in">
+                <div class="h4 text-center title">Contact Me</div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <form id="contact-form" action="https://formspree.io/f/xyylylpl" method="POST">
+                        <div class="p pb-3">
+                          <strong>Feel free to contact me </strong>
+                        </div>
+                        <div class="row mb-3">
+                          <div class="col">
+                            <div class="input-group">
+                              <span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                              <input class="form-control" type="text" name="name" placeholder="Name"
+                                required="required" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                          <div class="col">
+                            <div class="input-group">
+                              <span class="input-group-addon"><i class="fa fa-file-text"></i></span>
+                              <input class="form-control" type="text" name="Subject" placeholder="Subject"
+                                required="required" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                          <div class="col">
+                            <div class="input-group">
+                              <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                              <input class="form-control" type="email" name="_replyto" placeholder="E-mail"
+                                required="required" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row mb-3">
+                          <div class="col">
+                            <div class="form-group">
+                              <textarea class="form-control" name="message" placeholder="Your Message"
+                                required="required"></textarea>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <button id="contact-form-submit" class="btn btn-primary" type="submit">
+                              Send
+                            </button>
+                          </div>
+                        </div>
+                        <div class="alert alert-success">
+                          Your message has been sent!
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <p class="mb-0"><strong>Address </strong></p>
+                      <p class="pb-2">
+                        234 Sedgewood Circle
+                        </br>
+                        Melbourne, FL 32904
+                      </p>
+                      <p class="mb-0"><strong>Phone</strong></p>
+                      <p class="pb-2">+1 614-202-1462</p>
+                      <p class="mb-0"><strong>Email</strong></p>
+                      <p>michael.hamill3@gmail.com</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <footer class="footer">
+    <div class="container text-center">
+      <a class="cc-linkedin btn btn-link" href="https://www.linkedin.com/in/michaelphamill" target="_blank"
+        rel="noopener noreferrer"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a><a
+        class="cc-github btn btn-link" href="https://github.com/mhamill2" target="_blank" rel="noopener noreferrer"><i
+          class="fa fa-github fa-2x" aria-hidden="true"></i></a><a class="cc-instagram btn btn-link"
+        href="https://instagram.com/michaelhamill614" target="_blank" rel="noopener noreferrer"><i
+          class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+    </div>
+    <div class="h4 title text-center">Michael Hamill</div>
+    <div class="text-center text-muted">
+      <p>
+        Copyright &copy; 2021
+      </p>
+    </div>
+  </footer>
+  <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+  <script src="js/core/popper.min.js?ver=1.1.0"></script>
+  <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+  <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+  <script src="js/aos.js?ver=1.1.0"></script>
+  <script src="scripts/main.js?ver=1.1.0"></script>
+</body>
+
 </html>
