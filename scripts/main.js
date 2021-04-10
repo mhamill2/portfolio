@@ -45,7 +45,8 @@ $('a.smooth-scroll').click(function (event) {
   }
 });
 
-$('#contact-form-submit').on('click', function () {
+$('#contact-form').on('submit', function (event) {
+  event.preventDefault();
   var data = {
     name: $('input[name="name"]').val(),
     subject: $('input[name="Subject"]').val(),
@@ -53,9 +54,9 @@ $('#contact-form-submit').on('click', function () {
     message: $('textarea[name="message"]').val(),
   };
 
-  Object.keys(data).forEach(function (key) {
-    if (data[key] == '') return false;
-  });
+  if (!data.name || !data.subject || !data.replyto || !data.message) {
+    return false;
+  }
 
   $.ajax({
     url: 'https://formspree.io/f/xyylylpl',
